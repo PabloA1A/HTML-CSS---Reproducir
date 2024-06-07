@@ -1,0 +1,20 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloA1A/HTML-CSS---Reproducir.git"
+  },
+  "author": "Pablo Abad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloA1A/HTML-CSS---Reproducir/issues"
+  },
+  "homepage": "https://github.com/PabloA1A/HTML-CSS---Reproducir#readme"
+}
