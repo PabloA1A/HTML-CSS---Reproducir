@@ -1,0 +1,190 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.div1 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: gold;
+}
+
+.div2 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aqua;
+}
+
+.div3 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    line-height: 100px; 
+    background-color: crimson;
+    font-size: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div4 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: gold;
+}
+
+.div5 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    line-height: 100px; 
+    background-color: aqua;
+    font-size: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div6 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: crimson;
+}
+
+.div7 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    line-height: 100px; 
+    background-color: gold;
+    font-size: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div8 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aquamarine;
+}
+
+.div9 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aqua;
+}
+
+.div10 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    line-height: 100px; 
+    background-color: gold;
+    font-size: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div11 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aquamarine;
+}
+
+.div12 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: crimson;
+}
+
+.div13 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aquamarine;
+}
+
+.div14 {
+    padding: 20px;
+    width: 400px;
+    height: 160px;
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    line-height: 100px; 
+    background-color: aqua;
+}
+
