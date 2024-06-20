@@ -1,16 +1,18 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const divs = document.querySelectorAll('.container div');
+const divs = document.querySelectorAll('.container > div');
     let currentIndex = 0;
 
-    function showNextDiv() {
-        divs[currentIndex].style.display = 'none';
+    function toggleDivVisibility() {
+        divs[currentIndex].style.opacity = 0;
+
+        if (currentIndex > 0) {
+            divs[currentIndex - 1].style.opacity = 1;
+        } else {
+            divs[divs.length - 1].style.opacity = 1; 
+        }
+
         currentIndex = (currentIndex + 1) % divs.length;
-        divs[currentIndex].style.display = 'block';
+
+        setTimeout(toggleDivVisibility, 1000); 
     }
 
-    for (let i = 1; i < divs.length; i++) {
-        divs[i].style.display = 'none';
-    }
-
-    setInterval(showNextDiv, 2000);
-});
+    toggleDivVisibility();
